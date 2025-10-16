@@ -1,9 +1,9 @@
 # Profile — Stage 0 Task (HNGi13)
 
-## 🧾 Description
+## Description
 A simple RESTful API that returns my profile information along with a dynamic cat fact from the [Cat Facts API](https://catfact.ninja/fact).
 
-## 🚀 Endpoint
+## Endpoint
 **GET** `/me`
 
 ### Example Response
@@ -19,19 +19,21 @@ A simple RESTful API that returns my profile information along with a dynamic ca
   "fact": "Cats sleep for 70% of their lives."
 }
 
-Tech Stack
+```
 
-Node.js
+## Tech Stack
 
-Express.js
+- Node.js
 
-Axios
+- Express.js
 
-Dotenv
+- Axios
 
-CORS
+- Dotenv
 
-Setup Instructions:
+- CORS
+
+## Setup Instructions:
 
 1. Clone the repository:
 
@@ -49,9 +51,9 @@ npm install
 node server.js
 
 
-4. Visit http://localhost:4000/me
+4. Visit https://hngtask0-production.up.railway.app/
 
 Deployment
 
-Hosted on Railway
-API Base URL: https://yourapp-url.com/me
+## Hosted on Railway
+API Base URL: https://hngtask0-production.up.railway.app/me
